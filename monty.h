@@ -74,6 +74,8 @@ void stk_sub(stack_t **stack, unsigned int ln);
 void stk_div(stack_t **stack, unsigned int ln);
 void stk_mul(stack_t **stack, unsigned int ln);
 void stk_mod(stack_t **stack, unsigned int ln);
+void stk_pchar(stack_t **stack, unsigned int ln);
+void stk_pstr(stack_t **stack, unsigned int ln);
 
 /* string_helpers */
 int tokenize_line(char *s, char *tokens[]);
