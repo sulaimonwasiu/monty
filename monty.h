@@ -76,6 +76,10 @@ void stk_mul(stack_t **stack, unsigned int ln);
 void stk_mod(stack_t **stack, unsigned int ln);
 void stk_pchar(stack_t **stack, unsigned int ln);
 void stk_pstr(stack_t **stack, unsigned int ln);
+void stk_rotl(stack_t **stack, unsigned int ln);
+void stk_rotr(stack_t **stack, unsigned int ln);
+void stk_stack(stack_t **stack, unsigned int ln);
+void stk_queue(stack_t **stack, unsigned int ln);
 
 /* string_helpers */
 int tokenize_line(char *s, char *tokens[]);
